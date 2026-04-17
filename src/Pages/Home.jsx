@@ -11,8 +11,8 @@ export default function Home() {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
 
-            <div className="carousel-inner">
-                <div className="carousel-item active">
+            <div className="carousel-inner ">
+                <div className="carousel-item active "data-bs-interval="3000">
                     <img src={slider} className="d-block w-100" alt="Fresh Fruits" style={{height: '500px', objectFit: 'cover'}} />
                     <div className="carousel-caption d-none d-md-block custom-caption text-start">
                         <h5 className="display-4 fw-bold text-success">Fresh fruits <br/> & vegetable</h5>
@@ -23,7 +23,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="carousel-item">
+                <div className="carousel-item" data-bs-interval="3000">
                     <img src={slider2} className="d-block w-100" alt="Fresh Fruits" style={{height: '500px', objectFit: 'cover'}} />
                     <div className="carousel-caption d-none d-md-block custom-caption text-end">
                         <h5 className="display-4 fw-bold text-success">Fresh fruits <br/> & vegetable</h5>
@@ -34,7 +34,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="carousel-item">
+                <div className="carousel-item" data-bs-interval="3000">
                     <img src={slider3} className="d-block w-100" alt="Fresh Fruits" style={{height: '500px', objectFit: 'cover'}} />
                     <div className="carousel-caption d-none d-md-block custom-caption text-start">
                         <h5 className="display-4 fw-bold text-success">Fresh fruits <br/> & vegetable</h5>
