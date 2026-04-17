@@ -1,8 +1,10 @@
 import "../Pages/Shop/shopPage.css";
 import apple from "../assets/images/25.jpg";
 import { useNavigate } from "react-router-dom";
-import { useWishlist } from '../context/WishlistContext'; 
+import { useWishlist } from '../context/WishlistContext';
+import { useCart } from '../context/CartContext'; 
 export default function ProductCard({items}){
+  const { addToCart } = useCart();
 const navigate = useNavigate(); 
 function goToDetails(){
   navigate(`/product/${items.id}`)
@@ -24,7 +26,7 @@ const isFavorite = wishlistItems.some(fav => fav.id === items.id);
       >
         <i className={isFavorite ? "fas fa-heart text-danger" : "far fa-heart"}></i>
       </button>
-          <button className="btn btn-light rounded-circle quick-btn" title="Add to Cart">
+          <button className="btn btn-light rounded-circle quick-btn" title="Add to Cart" onClick={() => addToCart(items)}>
             <i className="fas fa-shopping-bag"></i>
           </button>
           <button className="btn btn-light rounded-circle quick-btn" title="Quick View" onClick={goToDetails} >

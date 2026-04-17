@@ -3,8 +3,10 @@ import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import logo from '../assets/images/logo-1.svg'
 import { useWishlist } from '../context/WishlistContext'; 
+import { useCart } from '../context/CartContext';
 export default function Navbar({ setSearch }) {
   const { wishlistItems } = useWishlist(); 
+  const { cartItems, subtotal } = useCart();
   return (
     <nav className="main-nav bg-white border-bottom shadow-sm w-100">
       <div className="container py-3">
@@ -50,10 +52,14 @@ export default function Navbar({ setSearch }) {
       )}
             </div>
             
-            <div className="position-relative ms-2 cursor-pointer">
+            <NavLink to="/cart" className="position-relative ms-2 cursor-pointer">
               <i className="fas fa-shopping-bag fs-4"></i>
-              <span className="badge rounded-circle bg-warning position-absolute top-0 start-100 translate-middle">0</span>
-            </div>
+              <span className="badge rounded-circle bg-warning position-absolute top-0 start-100 translate-middle">{cartItems.length}</span>
+            </NavLink>
+            <div className="text-start d-none d-lg-block ms-2">
+    <p className="m-0 small text-muted" style={{ fontSize: '10px' }}>Your Cart</p>
+    <p className="m-0 small fw-bold text-success">{subtotal} EGP</p>
+  </div>
           </div>
 
         </div>
