@@ -1,0 +1,465 @@
+
+ 
+   [
+    {
+      "id": 101,
+      "name": "Fresh Tomatoes",
+      "category": "Vegetables",
+      "description": "Ripe, juicy tomatoes sourced from local Egyptian farms. Perfect for salads and cooking.",
+      "price": 12.5,
+      "unit": "kg",
+      "stock": 200,
+      "origin": "Egypt",
+      "rating": 4.7,
+      "image_url": "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?w=400&q=80"
+    },
+    {
+      "id": 204,
+      "name": "Alphonso Mangoes",
+      "category": "Fruits",
+      "description": "The king of mangoes — sweet, creamy, and aromatic. Prize-winning tropical flavor.",
+      "price": 25.0,
+      "unit": "kg",
+      "stock": 100,
+      "origin": "Egypt",
+      "rating": 4.9,
+      "image_url": "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=400&q=80"
+    },
+    {
+      "id": 301,
+      "name": "Beef Tenderloin",
+      "category": "Meats",
+      "description": "Premium cut beef tenderloin — the most tender and prized muscle. Perfect for grilling.",
+      "price": 320.0,
+      "unit": "kg",
+      "stock": 30,
+      "origin": "Egypt",
+      "halal": true,
+      "rating": 4.9,
+      "image_url": "https://images.unsplash.com/photo-1558030006-450675393462?w=400&q=80"
+    },
+    {
+      "id": 405,
+      "name": "Plain Croissant",
+      "category": "Bread & Bakery",
+      "description": "Buttery flaky croissants with 27 layers of laminated dough. Baked fresh daily.",
+      "price": 15.0,
+      "unit": "piece",
+      "stock": 80,
+      "rating": 4.8,
+      "image_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&q=80"
+    },
+    {
+      "id": 103,
+      "name": "Organic Carrots",
+      "category": "Vegetables",
+      "description": "Naturally sweet, organically grown carrots packed with beta-carotene and vitamins.",
+      "price": 10.0,
+      "unit": "kg",
+      "stock": 180,
+      "rating": 4.8,
+      "image_url": "https://images.unsplash.com/photo-1447175008436-054170c2e979?w=400&q=80"
+    },
+    {
+      "id": 201,
+      "name": "Bananas",
+      "category": "Fruits",
+      "description": "Sweet ripe yellow bananas — a daily favorite. Packed with potassium.",
+      "price": 14.0,
+      "unit": "kg",
+      "stock": 200,
+      "rating": 4.6,
+      "image_url": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=400&q=80"
+    },
+    {
+      "id": 307,
+      "name": "Whole Chicken",
+      "category": "Meats",
+      "description": "Fresh farm-raised whole chicken — halal certified and antibiotic-free.",
+      "price": 95.0,
+      "unit": "piece",
+      "stock": 80,
+      "rating": 4.6,
+      "image_url": "https://images.unsplash.com/photo-1587593810167-a84920ea0781?w=400&q=80"
+    },
+    {
+      "id": 402,
+      "name": "Egyptian Baladi Bread",
+      "category": "Bread & Bakery",
+      "description": "Authentic Egyptian whole wheat baladi flatbread. Soft and perfect for dips.",
+      "price": 5.0,
+      "unit": "pack of 5",
+      "stock": 300,
+      "rating": 4.8,
+      "image_url": "https://images.unsplash.com/photo-1559620192-032c4bc4674e?w=400&q=80"
+    },
+    {
+      "id": 108,
+      "name": "Broccoli",
+      "category": "Vegetables",
+      "description": "Fresh crispy broccoli florets high in vitamin K, vitamin C, and fiber.",
+      "price": 28.0,
+      "unit": "kg",
+      "stock": 60,
+      "rating": 4.5,
+      "image_url": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=400&q=80"
+    },
+    {
+      "id": 205,
+      "name": "Organic Strawberries",
+      "category": "Fruits",
+      "description": "Plump sweet organic strawberries with a vibrant red color.",
+      "price": 45.0,
+      "unit": "kg",
+      "stock": 80,
+      "rating": 4.8,
+      "image_url": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=400&q=80"
+    },
+    {
+      "id": 311,
+      "name": "Seasoned Beef Kofta Mix",
+      "category": "Meats",
+      "description": "Ready-to-grill beef kofta mix, pre-seasoned with authentic spices.",
+      "price": 195.0,
+      "unit": "kg",
+      "stock": 40,
+      "rating": 4.8,
+      "image_url": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=400&q=80"
+    },
+    {
+      "id": 401,
+      "name": "Sourdough Loaf",
+      "category": "Bread & Bakery",
+      "description": "Artisan sourdough loaf with a crispy golden crust and a chewy interior.",
+      "price": 45.0,
+      "unit": "piece",
+      "stock": 40,
+      "rating": 4.9,
+      "image_url": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=400&q=80"
+    },
+    {
+      "id": 102,
+      "name": "Cucumber",
+      "category": "Vegetables",
+      "price": 8.0,
+      "unit": "kg",
+      "rating": 4.5,
+      "image_url": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?w=400&q=80"
+    },
+    {
+      "id": 207,
+      "name": "Watermelon",
+      "category": "Fruits",
+      "price": 6.0,
+      "unit": "kg",
+      "rating": 4.8,
+      "image_url": "https://images.unsplash.com/photo-1563114773-84221bd62daa?w=400&q=80"
+    },
+    {
+      "id": 308,
+      "name": "Chicken Breast Boneless",
+      "category": "Meats",
+      "price": 145.0,
+      "unit": "kg",
+      "rating": 4.7,
+      "image_url": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=400&q=80"
+    },
+    {
+      "id": 406,
+      "name": "Chocolate Croissant",
+      "category": "Bread & Bakery",
+      "price": 18.0,
+      "unit": "piece",
+      "rating": 4.9,
+      "image_url": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=400&q=80"
+    },
+    {
+      "id": 104,
+      "name": "Potatoes",
+      "category": "Vegetables",
+      "price": 9.0,
+      "unit": "kg",
+      "rating": 4.4,
+      "image_url": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=400&q=80"
+    },
+    {
+      "id": 211,
+      "name": "Avocado",
+      "category": "Fruits",
+      "price": 75.0,
+      "unit": "kg",
+      "rating": 4.7,
+      "image_url": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?w=400&q=80"
+    },
+    {
+      "id": 302,
+      "name": "Ground Beef 80/20",
+      "category": "Meats",
+      "price": 180.0,
+      "unit": "kg",
+      "rating": 4.7,
+      "image_url": "https://images.unsplash.com/photo-1602470520998-f4a52199a3d6?w=400&q=80"
+    },
+    {
+      "id": 404,
+      "name": "French Baguette",
+      "category": "Bread & Bakery",
+      "price": 20.0,
+      "unit": "piece",
+      "rating": 4.7,
+      "image_url": "https://images.unsplash.com/photo-1568471173242-461f0a730452?w=400&q=80"
+    },
+    {
+      "id": 105,
+      "name": "White Onions",
+      "category": "Vegetables",
+      "price": 7.5,
+      "unit": "kg",
+      "rating": 4.3,
+      "image_url": "https://images.unsplash.com/photo-1508747703725-719777637510?w=400&q=80"
+    },
+    {
+      "id": 202,
+      "name": "Red Apples",
+      "category": "Fruits",
+      "price": 32.0,
+      "unit": "kg",
+      "rating": 4.5,
+      "image_url": "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?w=400&q=80"
+    },
+    {
+      "id": 303,
+      "name": "Beef Ribeye Steak",
+      "category": "Meats",
+      "price": 280.0,
+      "unit": "kg",
+      "rating": 4.8,
+      "image_url": "https://images.unsplash.com/photo-1546964124-0cce460f38ef?w=400&q=80"
+    },
+    {
+      "id": 403,
+      "name": "Whole Wheat Loaf",
+      "category": "Bread & Bakery",
+      "price": 22.0,
+      "unit": "piece",
+      "rating": 4.6,
+      "image_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80"
+    },
+    {
+      "id": 112,
+      "name": "Fresh Mushrooms",
+      "category": "Vegetables",
+      "price": 45.0,
+      "unit": "kg",
+      "rating": 4.8,
+      "image_url": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?w=400&q=80"
+    },
+    {
+      "id": 209,
+      "name": "Medjool Dates",
+      "category": "Fruits",
+      "price": 120.0,
+      "unit": "kg",
+      "rating": 4.9,
+      "image_url": "https://images.unsplash.com/photo-1593057336139-c0faa4d7a9a3?w=400&q=80"
+    },
+    {
+      "id": 305,
+      "name": "Lamb Leg Whole",
+      "category": "Meats",
+      "price": 360.0,
+      "unit": "kg",
+      "rating": 4.8,
+      "image_url": "https://images.unsplash.com/photo-1603048588665-791ca8aea617?w=400&q=80"
+    },
+    {
+      "id": 407,
+      "name": "Brioche Loaf",
+      "category": "Bread & Bakery",
+      "price": 55.0,
+      "unit": "piece",
+      "rating": 4.7,
+      "image_url": "https://images.unsplash.com/photo-1590137876181-2a5a7e340de2?w=400&q=80"
+    },
+    {
+      "id": 106,
+      "name": "Fresh Garlic",
+      "category": "Vegetables",
+      "price": 35.0,
+      "unit": "kg",
+      "rating": 4.6,
+      "image_url": "https://images.unsplash.com/photo-1501127122-f385ca6ddd9d?w=400&q=80"
+    },
+    {
+      "id": 203,
+      "name": "Navel Oranges",
+      "category": "Fruits",
+      "price": 12.0,
+      "unit": "kg",
+      "rating": 4.7,
+      "image_url": "https://images.unsplash.com/photo-1547514701-42782101795e?w=400&q=80"
+    },
+    {
+      "id": 309,
+      "name": "Chicken Thighs",
+      "category": "Meats",
+      "price": 120.0,
+      "unit": "kg",
+      "rating": 4.6,
+      "image_url": "https://images.unsplash.com/photo-1598103442097-8b74394b95c3?w=400&q=80"
+    },
+    {
+      "id": 411,
+      "name": "Multigrain Loaf",
+      "category": "Bread & Bakery",
+      "price": 28.0,
+      "unit": "piece",
+      "rating": 4.6,
+      "image_url": "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?w=400&q=80"
+    },
+    {
+      "id": 110,
+      "name": "Red Bell Pepper",
+      "category": "Vegetables",
+      "price": 22.0,
+      "unit": "kg",
+      "rating": 4.6,
+      "image_url": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?w=400&q=80"
+    },
+    {
+      "id": 206,
+      "name": "Red Seedless Grapes",
+      "category": "Fruits",
+      "price": 38.0,
+      "unit": "kg",
+      "rating": 4.6,
+      "image_url": "https://images.unsplash.com/photo-1537640538966-79f369143f8f?w=400&q=80"
+    },
+    {
+      "id": 304,
+      "name": "Beef Short Ribs",
+      "category": "Meats",
+      "price": 230.0,
+      "unit": "kg",
+      "rating": 4.7,
+      "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&q=80"
+    },
+    {
+      "id": 412,
+      "name": "Ciabatta Loaf",
+      "category": "Bread & Bakery",
+      "price": 35.0,
+      "unit": "piece",
+      "rating": 4.7,
+      "image_url": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=400&q=80"
+    },
+    {
+      "id": 107,
+      "name": "Fresh Spinach",
+      "category": "Vegetables",
+      "price": 15.0,
+      "unit": "kg",
+      "rating": 4.7,
+      "image_url": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=400&q=80"
+    },
+    {
+      "id": 208,
+      "name": "Pomegranate",
+      "category": "Fruits",
+      "price": 22.0,
+      "unit": "kg",
+      "rating": 4.7,
+      "image_url": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=400&q=80"
+    },
+    {
+      "id": 306,
+      "name": "Ground Lamb",
+      "category": "Meats",
+      "price": 240.0,
+      "unit": "kg",
+      "rating": 4.6,
+      "image_url": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&q=80"
+    },
+    {
+      "id": 408,
+      "name": "Sesame Burger Buns",
+      "category": "Bread & Bakery",
+      "price": 25.0,
+      "unit": "pack of 4",
+      "rating": 4.5,
+      "image_url": "https://images.unsplash.com/photo-1550317138-10000687a72b?w=400&q=80"
+    },
+    {
+      "id": 111,
+      "name": "Okra",
+      "category": "Vegetables",
+      "price": 18.0,
+      "unit": "kg",
+      "rating": 4.5,
+      "image_url": "https://images.unsplash.com/photo-1590779033100-9f60a05a013d?w=400&q=80"
+    },
+    {
+      "id": 212,
+      "name": "Fresh Figs",
+      "category": "Fruits",
+      "price": 40.0,
+      "unit": "kg",
+      "rating": 4.6,
+      "image_url": "https://images.unsplash.com/photo-1601379327928-bedfaf9da2d0?w=400&q=80"
+    },
+    {
+      "id": 310,
+      "name": "Chicken Wings",
+      "category": "Meats",
+      "price": 110.0,
+      "unit": "kg",
+      "rating": 4.5,
+      "image_url": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=400&q=80"
+    },
+    {
+      "id": 409,
+      "name": "White Pita Bread",
+      "category": "Bread & Bakery",
+      "price": 12.0,
+      "unit": "pack of 6",
+      "rating": 4.6,
+      "image_url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&q=80"
+    },
+    {
+      "id": 109,
+      "name": "Eggplant",
+      "category": "Vegetables",
+      "price": 10.5,
+      "unit": "kg",
+      "rating": 4.4,
+      "image_url": "https://images.unsplash.com/photo-1659019745949-e5b9aa93b0fa?w=400&q=80"
+    },
+    {
+      "id": 210,
+      "name": "Guava",
+      "category": "Fruits",
+      "price": 15.0,
+      "unit": "kg",
+      "rating": 4.5,
+      "image_url": "https://images.unsplash.com/photo-1536511132770-e5058c7e8c46?w=400&q=80"
+    },
+    {
+      "id": 312,
+      "name": "Beef Liver",
+      "category": "Meats",
+      "price": 120.0,
+      "unit": "kg",
+      "rating": 4.4,
+      "image_url": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&q=80"
+    },
+    {
+      "id": 410,
+      "name": "Gluten-Free White Loaf",
+      "category": "Bread & Bakery",
+      "price": 65.0,
+      "unit": "piece",
+      "rating": 4.3,
+      "image_url": "https://images.unsplash.com/photo-1598373182133-52452f7691ef?w=400&q=80"
+    }
+  ]
+ 
